@@ -633,6 +633,7 @@ address {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
+    transition: opasity 500ms, visability 500ms
 }
 
 .modal {
@@ -659,7 +660,6 @@ address {
     position: absolute;
     top: 8px;
     right: 8px;
-    transition: scale (1.25), opacity 250ms ease-in-out;
 }
 
 .is-hidden {
