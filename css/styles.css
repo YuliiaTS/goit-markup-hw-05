@@ -667,13 +667,22 @@ address {
     right: 8px;
 }
 
-.modal-close > .modal-close-icon {
+.modal-close::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: 50% 50%;
+    background-image: url(../images/close-black.svg);
+}
+
+/* .modal-close > .modal-close-icon {
     width: 18px;
     height: 18px;
     background-image: url(../images/close-black.svg);
     background-size: contain;
     background-position: 50% 50%;
-} 
+}  */
 
 .is-hidden {
     opacity: 0.5;
