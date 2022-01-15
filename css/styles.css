@@ -636,7 +636,7 @@ address {
     transition: opasity 2000ms, visability 2000ms;
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden .modal .modal-close {
     transform: scale(0.5);
 }
 
