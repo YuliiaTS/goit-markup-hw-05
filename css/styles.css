@@ -633,7 +633,7 @@ address {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opasity 2000ms, visability 2000ms;
+    transition: opaсity 500ms, visibility 500ms;
 }
 
 .backdrop.is-hidden .modal {
@@ -665,7 +665,6 @@ address {
     position: absolute;
     top: 8px;
     right: 8px;
-    transform: scale(1);
 }
 
 .modal-close > .modal-close-icon {
