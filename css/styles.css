@@ -665,7 +665,16 @@ address {
     position: absolute;
     top: 8px;
     right: 8px;
+    transform: scale(1);
 }
+
+.modal-close > .modal-close-icon {
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/close-black.svg);
+    background-size: contain;
+    background-position: 50% 50%;
+} 
 
 .is-hidden {
     opacity: 0;
